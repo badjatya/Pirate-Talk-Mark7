@@ -6,20 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pirate Talk | BADJATYA</title>
     <link rel="stylesheet" href="./static/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
       <div class="left-col">
-        <h1>Pirates Of The Caribbean</h1>
-        <textarea id="input-text"></textarea>
-        <span id="translate">Translate To Pirates</span>
-        <div class="output" id="output"></div>
-      </div>
-      <div class="right-col">
         <img
           src="https://tenor.com/view/oldpirate-ultimatejuice-gif-18870722.gif"
           alt="Pirate"
         />
+      </div>
+      <div class="right-col">
+        <div class="head">
+          <img src="./static/img/pirate.svg" alt="Pirate Icon" />
+          <h1>Pirates Of neoG Camp</h1>
+        </div>
+
+        <textarea id="input-text" placeholder="Enter Message"></textarea>
+        <div id="translate">
+          <i class="fas fa-anchor"></i>
+          <span> Translate To Pirates</span>
+        </div>
+        <!-- <span id="translate">Translate To Pirates</span> -->
+        <div class="output" id="output">Message in Pirate...</div>
       </div>
     </header>
     <!-- Script  -->
